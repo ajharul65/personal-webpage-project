@@ -1,4 +1,4 @@
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,19 +7,20 @@
     list-style: none;
     background-color: rgb(194, 201, 213);
     background-image: linear-gradient(rgb(194, 201, 213), rgb(166, 166, 194));
+   
 }
 
 .header {
-    position: fixed;
+    
     width: 100%;
     padding: 35px 12%;
     background-color: rgb(122, 119, 138);
     background-image: linear-gradient(rgb(103, 101, 113), rgb(224, 198, 198));
-    backdrop-filter: blur(10px);
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    z-index: 100;
+    
+    
     
 }
 
@@ -27,7 +28,9 @@
    height: 70px;
    width: 70x;
    display: flex;
-     
+   padding-right: 400px;
+   
+   
 }
 
 
@@ -37,17 +40,20 @@
     font-weight: 450;
     padding-right: 50px;
     align-items: center;
+    text-decoration: none;
    
 }
 
 .contact {
-    color: white;
+    color: rgb(26, 21, 21);
     background-color: white;
     width: 90px;
     height: 20px;
     text-align: center;
     border-radius: 5px;
     font-weight: 550;
+    margin-left: 200px;
+   
 }
 
 #biobody{
@@ -59,4 +65,176 @@
     padding-top: 200px;
     
 
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.homecontent {
+    max-width: 800px;
+}
+.home-content h3 {
+    font-size: 45px;
+    line-height: 1.2;
+}
+
+.home-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+
+.btn {
+    width: 110px;
+    text-align: center;
+    background-color: rgb(183, 183, 160);
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;   
+}
+
+.profile {
+    border-radius: 100px;
+    width: 500px;
+    height: 500px;
+    margin-right: 200px;
+
+
+}
+
+.bio {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(216, 216, 214);
+}
+
+.bio h2 {
+    text-align: center;
+    
+}
+
+.bioprofile {
+        border-radius: 50%;
+        width: 500px;
+        height: 500px;
+        margin-right: 200px;
+}
+
+.work {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(216, 216, 214);
+    gap: 10px;
+    padding-right: 100px;
+    
+}
+
+.barclays {
+    border-radius: 50px;
+    width: 500px;
+    height: 500px;
+    margin-right: 200px;
+    padding: 10px 10px;
+}
+
+
+.portfolio {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(216, 216, 214);
+    gap: 10px;
+    padding-right: 400px;
+    
+}
+
+.contactme {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: rgb(216, 216, 214);
+    gap: 10px;
+    padding-right: 100px;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    
+}
+
+.contactimg {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding: 10px 10px;   
+}
+
+.a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 400px;
+    
+    
+}
+
+input[type=text]{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 8px;
+    border: 2px;
+    border-radius: 5px;
+    background-color: rgb(248, 244, 244);
+    border-color: rgb(176, 175, 175);
+    padding: 2px 8px;
+  
+}
+
+textarea{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 8px;
+    border: 2px;
+    border-radius: 5px;
+    background-color: rgb(248, 244, 244);
+    border-color: rgb(176, 175, 175);
+    padding: 2px 8px;
+}
+
+
+
+
+button {
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgba(100, 116, 119, 0.732);
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+
+footer img {
+  width: 50px;
+  height: 50px;
+  background: none;
+  border-radius: 50%;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(181, 181, 181);;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
 }
